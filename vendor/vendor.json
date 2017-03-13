@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "/U5EarFbdE9IwqBpdKXm74om+eo=",
+			"path": "google.golang.org/grpc",
+			"revision": "d50cf2db166eaff3f2429425758d12205085eb5b",
+			"revisionTime": "2017-03-10T19:14:43Z"
+		}
+	],
+	"rootPath": "github.com/wcharczuk/rpcfun"
+}

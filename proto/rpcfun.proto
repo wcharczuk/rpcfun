@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package rpcfun;
+
+import "google/protobuf/timestamp.proto";
+
+service Server {
+    rpc Receive(stream Message) returns (steam Status) {}
+}
+
+message Message {
+    Timestamp TimestampUTC = 1;
+    string UUID = 2;
+    string Text = 3;
+}
+
+message Status {
+    int32 StatusCode = 1;
+    string Message = 2;
+    string StackTrace = 3;
+}
